@@ -32,6 +32,7 @@ public class Intenciones extends AppCompatActivity {
     startActivity(intent);
   }
 
+
   public void maps(View view) {
     Intent intent = new Intent(Intent.ACTION_VIEW,
             Uri.parse("geo:-18.013739816,-70.2510593169"));
