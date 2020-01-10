@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.u1temaupt.Multimedia.Multimedia;
+import com.example.u1temaupt.MyRecyclerView.MiRecyclerView;
+
 public class MainActivity extends AppCompatActivity {
 
   @Override
@@ -48,10 +51,11 @@ public class MainActivity extends AppCompatActivity {
       return true;
     }
 
-    if (id == R.id.activity_permisos) {
-      startActivity(new Intent(this, Permisos.class));
+    if (id == R.id.activity_my_recycler_view) {
+      startActivity(new Intent(this, MiRecyclerView.class));
       return true;
     }
+
 
     return super.onOptionsItemSelected(item);
   }

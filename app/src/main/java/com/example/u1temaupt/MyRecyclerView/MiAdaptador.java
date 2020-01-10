@@ -1,4 +1,4 @@
-package com.example.u1temaupt;
+package com.example.u1temaupt.MyRecyclerView;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.u1temaupt.R;
 
 import java.util.Vector;
 

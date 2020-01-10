@@ -1,10 +1,12 @@
-package com.example.u1temaupt;
+package com.example.u1temaupt.Multimedia;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.MediaController;
 import android.widget.VideoView;
+
+import com.example.u1temaupt.R;
 
 public class Multimedia2 extends AppCompatActivity {
 

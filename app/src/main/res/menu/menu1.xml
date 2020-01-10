@@ -20,7 +20,7 @@
         android:orderInCategory="2"
         />
     <item android:title="RecyclerView"
-        android:id="@+id/my_recyclerview"
+        android:id="@+id/activity_my_recycler_view"
         android:orderInCategory="5"
         />
     <item android:title="Salir"

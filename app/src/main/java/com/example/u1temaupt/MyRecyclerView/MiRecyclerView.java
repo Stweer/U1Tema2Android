@@ -1,4 +1,4 @@
-package com.example.u1temaupt;
+package com.example.u1temaupt.MyRecyclerView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.widget.Toast;
+
+import com.example.u1temaupt.R;
 
 import java.util.Vector;
 
@@ -19,7 +21,7 @@ public class MiRecyclerView extends AppCompatActivity implements InterfaceToast{
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_mi_recycler_view);
-    recyclerView = findViewById(R.id.my_recyclerview);
+    recyclerView = findViewById(R.id.recycler_view);
     misdatos = new Vector<String>();
     misdatos.add("123000 Wilson Callisaya");
     misdatos.add("123000 Pepito Domingez");
