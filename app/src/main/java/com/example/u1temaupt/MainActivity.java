@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.u1temaupt.FramentTabhost.MiFragmentTabhost;
 import com.example.u1temaupt.Multimedia.Multimedia;
 import com.example.u1temaupt.MyRecyclerView.MiRecyclerView;
 
@@ -53,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
 
     if (id == R.id.activity_my_recycler_view) {
       startActivity(new Intent(this, MiRecyclerView.class));
+      return true;
+    }
+
+    if (id == R.id.activity_my_fragment_tabhost) {
+      startActivity(new Intent(this, MiFragmentTabhost.class));
       return true;
     }
 

@@ -23,12 +23,19 @@
         android:id="@+id/activity_my_recycler_view"
         android:orderInCategory="5"
         />
+
+    <item android:title="FragmentTabhostw"
+        android:id="@+id/activity_my_fragment_tabhost"
+        android:orderInCategory="5"
+        />
     <item android:title="Salir"
         android:id="@+id/accion_salir"
         android:orderInCategory="2"
         android:icon="@android:drawable/ic_lock_power_off"
         app:showAsAction="always"
         />
+
+
 
 
 
