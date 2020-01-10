@@ -26,7 +26,11 @@ public class Intenciones extends AppCompatActivity {
     startActivity(intent);
   }
 
-
+  public void Llamar(View view) {
+    Intent intent = new Intent(Intent.ACTION_DIAL,
+            Uri.parse("tel:952000243"));
+    startActivity(intent);
+  }
 
 
   public void maps(View view) {
