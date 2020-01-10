@@ -19,12 +19,17 @@
         android:id="@+id/activity_permisos"
         android:orderInCategory="2"
         />
+    <item android:title="RecyclerView"
+        android:id="@+id/my_recyclerview"
+        android:orderInCategory="2"
+        />
     <item android:title="Salir"
         android:id="@+id/accion_salir"
         android:orderInCategory="2"
         android:icon="@android:drawable/ic_lock_power_off"
         app:showAsAction="always"
         />
+
 
 
 </menu>
