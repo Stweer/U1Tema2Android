@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     setContentView(R.layout.drawerlayout);
     Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
     setSupportActionBar(toolbar);
-
     // Navigation Drawer
     DrawerLayout drawer = (DrawerLayout) findViewById(
             R.id.drawer_layout);
@@ -134,6 +133,5 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
       super.onBackPressed();
     }
   }
-
 }
 

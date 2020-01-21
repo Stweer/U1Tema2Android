@@ -1,24 +1,4 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:checkableBehavior="single">
-        <item android:id="@+id/Fragment1"
-            android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Fragmento ejemplo1" />
-        <item android:id="@+id/Fragment2"
-            android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Fragmento ejemplo2" />
-        <item android:id="@+id/Fragment3"
-            android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Fragmento ejemplo3" />
-        <item android:id="@+id/Fragment4"
-            android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Fragmento ejemplo4" />
-        <item android:id="@+id/Fragment5"
-            android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Fragmento ejemplo5" />
-        <item android:id="@+id/Fragment6"
-            android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Fragmento ejemplo6" />
-    </group>
     <item android:title="Acciones adicionales">
         <menu>
             <item android:id="@+id/nav_compartir"
@@ -29,4 +9,39 @@
                 android:title="Salir" />
         </menu>
     </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Intenciones"
+            android:id="@+id/activity_intenciones"
+            android:orderInCategory="2"
+            android:icon="@android:drawable/ic_menu_gallery"
+            />
+
+        <item android:title="Multimedia"
+            android:id="@+id/activity_multimedia"
+            android:orderInCategory="2"
+            android:icon="@android:drawable/ic_menu_gallery"
+            />
+        <item android:title="Permisos"
+            android:id="@+id/activity_permisos"
+            android:orderInCategory="2"
+            android:icon="@android:drawable/ic_menu_gallery"
+
+            />
+        <item android:title="TabHost"
+            android:id="@+id/activity_my_fragment_tabhost"
+            android:orderInCategory="2"
+            android:icon="@android:drawable/ic_menu_gallery"
+            />
+
+        <item android:title="Recycler"
+            android:id="@+id/activity_my_recycler_view"
+            android:orderInCategory="2"
+            android:icon="@android:drawable/ic_menu_gallery"
+            />
+
+
+
+    </group>
+
 </menu>
