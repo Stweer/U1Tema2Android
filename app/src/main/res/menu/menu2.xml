@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/Fragment1"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Fragmento ejemplo1" />
+        <item android:id="@+id/Fragment2"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Fragmento ejemplo2" />
+        <item android:id="@+id/Fragment3"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Fragmento ejemplo3" />
+        <item android:id="@+id/Fragment4"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Fragmento ejemplo4" />
+        <item android:id="@+id/Fragment5"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Fragmento ejemplo5" />
+        <item android:id="@+id/Fragment6"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Fragmento ejemplo6" />
+    </group>
+    <item android:title="Acciones adicionales">
+        <menu>
+            <item android:id="@+id/nav_compartir"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item android:id="@+id/nav_salir"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Salir" />
+        </menu>
+    </item>
+</menu>
